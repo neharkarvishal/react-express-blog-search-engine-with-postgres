@@ -6,7 +6,7 @@ const logger = require('morgan');
 
 const routes = require('./routes');
 
-const app = require('express');
+const app = express();
 
 app.use(logger('dev'));
 app.use(cookieParser());

@@ -6,6 +6,9 @@
   "author": "Vishal Neharkar <neharkar.vishal@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
+  "scripts": {
+    "start": "node src/www.js"
+  },
   "dependencies": {
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",

@@ -14,4 +14,4 @@ router.get('api/get/allposts', ( req, res, next ) => {
     });
 });
 
-module.export = router;
+module.exports = router;
